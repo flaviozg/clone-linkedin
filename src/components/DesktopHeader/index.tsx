@@ -21,20 +21,22 @@ const DesktopHeader: React.FC = () => {
         </div>
 
         <div className="right">
-          <button className="active">
-            <HomeIcon />
-            <span>Início</span>
-          </button>
-          <button>
-            <NotificationsIcon />
-            <span>Notificações</span>
-          </button>
-          <button>
-            <ProfileCircle src="https://github.com/flaviozg.png" />
-            <span>
-              Eu <CaretDownIcon />
-            </span>
-          </button>
+          <nav>
+            <button className="active">
+              <HomeIcon />
+              <span>Início</span>
+            </button>
+            <button>
+              <NotificationsIcon />
+              <span>Notificações</span>
+            </button>
+            <button>
+              <ProfileCircle src="https://github.com/flaviozg.png" />
+              <span>
+                Eu <CaretDownIcon />
+              </span>
+            </button>
+          </nav>          
         </div>
       </Wrapper>
     </Container>
